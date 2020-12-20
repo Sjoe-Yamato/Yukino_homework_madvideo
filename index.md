@@ -1,8 +1,8 @@
-## Welcome to GitHub Pages
+## 这里是雪女展示作业的网站 非相关人员就别深入看下去了 
 
-You can use the [editor on GitHub](https://github.com/jnu1906/1205_Rmakedown_demo/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+你可以在这里找到这个项目 [editor on GitHub](https://github.com/jnu1906/1205_Rmakedown_demo/edit/gh-pages/index.md) 
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+但还请记住，这只是一个课程作业，无论内容质量如何都跪求看到的人别传出去
 
 ### Markdown
 
