@@ -3,11 +3,11 @@
 你可以在这里找到这个 [~~垃圾项目~~](https://github.com/jnu1906/1205_Rmakedown_demo/edit/gh-pages/index.md) 
 甚至可以下载这个 [~~垃圾视频~~](https://github.com/jnu1906/1205_Rmakedown_demo/edit/gh-pages/index.md) 
 
-但还请记住，这只是一个课程作业，无论内容质量如何，都请看到视频的人别到处乱传出去，谢谢配合
+但还请记住，这<font size=4>只是一个课程作业</font>，无论内容质量如何，都请看到视频的人**别到处乱传出去**，谢谢配合
 
 ## 在开始之前，让我们说出
 
-```
+```py
 print("Hello Elizabeth!")
 ```
 
