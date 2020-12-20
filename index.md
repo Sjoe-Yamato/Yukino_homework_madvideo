@@ -15,10 +15,8 @@ print("Hello Elizabeth!")
 <video id="video" controls="" preload="none" poster="menu.png" width='576' height='324'>
       <source id="mp4" src="video01.mp4" type="video/mp4">
 </video>
-## 当你看到这
-
-你这个视频怎样呢?
-
-~~我不需要你告诉我（滑稽）~~
 
 # 谢谢观看
+你这个视频怎样呢?
+
+~~告诉我吧（滑稽）~~
