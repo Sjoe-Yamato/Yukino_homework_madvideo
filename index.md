@@ -11,12 +11,13 @@
 print("Hello Elizabeth!")
 ```
 
-## 来看视频吧
+# 来看视频吧
 <video id="video" controls="" preload="none" poster="menu.png" width='500' height='900'>
-      <source id="mp4" src="Video01.mp4" type="video/mp4">
-      </video>
+      <source id="mp4" src="video01.mp4" type="video/mp4">
+</video>
 ## 当你看到这
-这个视频怎样呢?
+
+你这个视频怎样呢?
 
 ~~我不需要你告诉我（滑稽）~~
 
