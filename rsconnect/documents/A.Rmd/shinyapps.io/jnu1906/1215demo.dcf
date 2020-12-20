@@ -1,0 +1,12 @@
+name: 1215demo
+title: 1215demo
+username:
+account: jnu1906
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 3399235
+bundleId: 4001465
+url: https://jnu1906.shinyapps.io/1215demo/
+when: 1608212883.64095
+asMultiple: FALSE
+asStatic: FALSE

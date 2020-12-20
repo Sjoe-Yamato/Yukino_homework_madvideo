@@ -1,59 +1,59 @@
 ---
-title: "1215_demo"
-author: "van"
-date: "2020/12/14"
-output: html_document
+title: "注意力测试_demo"
+author: "【哥，我没有选题了】小组"
+date: "2020/09/04"
+output:
+  html_document:
+    toc: true
 runtime: shiny
+number_sections: true
 ---
+我们组有`r 6 + 2`个人
 
 ```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = TRUE)
+knitr::opts_chunk$set(echo = TRUE, message = FALSE)
 ```
+<font face="黑体">我是黑体字</font>
+<font face="微软雅黑">我是微软雅黑</font>
+<font face="STCAIYUN">我是华文彩云</font>
+<font color=red>我是红色</font>
+<font color=#008000>我是绿色</font>
+<font color=Blue>我是蓝色</font>
+<font size=5>我是尺寸</font>
+<font face="黑体" color=green size=5>我是黑体，绿色，尺寸为5</font>
 
-This R Markdown document is made interactive using Shiny. Unlike the more traditional workflow of creating static reports, you can now create documents that allow your readers to change the assumptions underlying your analysis and see the results immediately. 
+想看更多点击这个[网站](http://rmarkdown.rstudio.com/authoring_shiny.html).
 
-To learn more, see [Interactive Documents](http://rmarkdown.rstudio.com/authoring_shiny.html).
+## 造成车祸的原因大多是人为因素
 
-## Inputs and Outputs
-
-You can embed Shiny inputs and outputs in your document. Outputs are automatically updated whenever inputs change.  This demonstrates how a standard R plot can be made interactive by wrapping it in the Shiny `renderPlot` function. The `selectInput` and `sliderInput` functions create the input widgets used to drive the plot.
+让我们来模拟一下各个情景下的车内视角，看看你的注意力如何
 
 ```{r eruptions, echo=FALSE}
 inputPanel(
   selectInput("n_breaks", label = "Number of bins:",
-              choices = c(10, 20, 35, 50), selected = 20),
+              choices = c("正常", "疲劳", "嗑药", "酒驾"), selected = "正常"),
   
-  sliderInput("bw_adjust", label = "Bandwidth adjustment:",
-              min = 0.2, max = 2, value = 1, step = 0.2)
+  sliderInput("bw_adjust", label = "车速（KM/H）:",
+              min = 30, max = 120, value = 10, step = 10)
 )
 
-renderPlot({
-  hist(faithful$eruptions, probability = TRUE, breaks = as.numeric(input$n_breaks),
-       xlab = "Duration (minutes)", main = "Geyser eruption duration")
-  
-  dens <- density(faithful$eruptions, adjust = input$bw_adjust)
-  lines(dens, col = "blue")
-})
+
 ```
 
-## Embedded Application
+## 天气也是一大因素
 
-It's also possible to embed an entire Shiny application within an R Markdown document using the `shinyAppDir` function. This example embeds a Shiny application located in another directory:
+01 让我们试试在不同天气下驾驶吧
 
-```{r tabsets, echo=FALSE}
-shinyAppDir(
-  system.file("examples/06_tabsets", package = "shiny"),
-  options = list(
-    width = "100%", height = 550
-  )
-)
-```
+<object data="https://games.gdevelop-app.com/game-2a3fed53-a325-4527-b023-b7e6d88e36b5/index.html" width="700" height="500" type="text/html">
+    Alternative Content
+</object>
 
-Note the use of the `height` parameter to determine how much vertical space the embedded application should occupy.
+02 让我们试试在不同天气下驾驶吧
 
-You can also use the `shinyApp` function to define an application inline rather then in an external directory.
+<embed src="https://games.gdevelop-app.com/game-2a3fed53-a325-4527-b023-b7e6d88e36b5/index.html" width=700 height=500 />
 
-In all of R code chunks above the `echo = FALSE` attribute is used. This is to prevent the R code within the chunk from rendering in the document alongside the Shiny components.
+03 让我们试试在不同天气下驾驶吧
 
-
-
+ <iframe src='https://games.gdevelop-app.com/game-2a3fed53-a325-4527-b023-b7e6d88e36b5/index.html' ></iframe>
+#canvas height="450" width="750"></canvas>
+#<script type="text/javascript" src="car/js/main.js"></script>
