@@ -11,7 +11,7 @@
 print("Hello Elizabeth!")
 ```
 
-# 来看视频吧~ 
+# 来看视频吧(视频大小50MB，慢的话还请耐心等等)~ 
 <video id="video" controls="" preload="none" poster="menu.png" width='400' height='300'>
       <source id="mp4" src="video01.mp4" type="video/mp4">
 </video>
