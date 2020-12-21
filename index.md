@@ -8,7 +8,7 @@
 
 ## 在开始之前，让我们说出~
 ```py
-print("Hello Elizabeth!")
+print("Hello 傻白!")
 ```
 
 ## 来看视频吧
