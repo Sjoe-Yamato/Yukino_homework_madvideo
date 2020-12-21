@@ -2,7 +2,7 @@
 
 你可以在这里找到这个 [~~垃圾项目~~](https://github.com/jnu1906/1205_Rmakedown_demo/edit/gh-pages/index.md)
 
-你甚至可以在播放器中下载这个~~垃圾视频~~
+~~你甚至可以下载这个垃圾视频~~
 
 ## 视频下载在这里(视频大小50MB) 
 
