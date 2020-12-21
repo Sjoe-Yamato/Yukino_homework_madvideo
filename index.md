@@ -17,9 +17,9 @@ print("Hello Elizabeth!")
       <source id="mp4" src="video01.mp4" type="video/mp4">
 </video>
 
-**[视频下载](./video01.mp4)
+**[视频下载](./video01.mp4)**
 
-**[视频封面下载](./menu.png)
+**[视频封面下载](./menu.png)**
 
 
 # 谢谢观看~
