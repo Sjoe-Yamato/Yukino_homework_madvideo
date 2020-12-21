@@ -12,7 +12,7 @@ print("Hello Elizabeth!")
 ```
 
 # 来看视频吧~ 
-<video id="video" controls="" preload="none" poster="menu.png" width='450' height='300'>
+<video id="video" controls="" preload="none" poster="menu.png" width='400' height='300'>
       <source id="mp4" src="video01.mp4" type="video/mp4">
 </video>
 
