@@ -1,6 +1,6 @@
 ## 你是谁？这里是雪女展示作业的网站 非相关人员就别深入看下去了
 
-你可以在这里找到这个 [~~垃圾项目~~](https://github.com/jnu1906/1205_Rmakedown_demo/edit/gh-pages/index.md)
+你可以在这里找到这个 [作业](https://sjoe-yamato.github.io/Yukino_homework_madvideo/)
 
 ~~你甚至可以下载这个垃圾视频~~
 
